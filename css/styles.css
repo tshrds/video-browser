@@ -87,7 +87,7 @@ body {
   border-radius: 5px;
   font-size: 112.5%;
   font-family: "Inter UI", Helvetica, Arial, sans-serif;
-  line-height: 1.4;;
+  line-height: 2.2;;
   color: var(--text-color);
 }
 
@@ -210,7 +210,7 @@ main {
 
 .links > a > strong {
   padding-left: var(--body-padding);
-  padding-right: .5em;
+  padding-right: 2.5em;
   position: relative;
   display: flex;
   align-items: center;
@@ -297,4 +297,14 @@ main {
 .bold {
   color:black;
   font-weight:bold;
+}
+
+.counter {
+  display: flex;
+  text-align: right;
+}
+
+.hit {
+  display: flex;
+  text-align: right;
 }
