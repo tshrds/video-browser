@@ -301,10 +301,10 @@ main {
 
 .counter {
   display: flex;
-  float: right;
+  float: left;
 }
 
 .hit {
   display: flex;
-  float: left;
+  float: right;
 }
